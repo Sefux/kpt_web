@@ -9,20 +9,20 @@
 ############
 page {
     logo {
-        file = EXT:kpt_ev/Resources/Public/Images/logo.svg
-        fileInverted = EXT:kpt_ev/Resources/Public/Images/logo-inverted.svg
+        file = EXT:kpt_web/Resources/Public/Images/logo.svg
+        fileInverted = EXT:kpt_web/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
         alt = KPT e.V.
         linktitle = KPT e.V.
     }
     favicon {
-        file = EXT:kpt_ev/Resources/Public/Icons/favicon.ico
+        file = EXT:kpt_web/Resources/Public/Icons/favicon.ico
     }
     fluidtemplate {
-        layoutRootPath = EXT:kpt_ev/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:kpt_ev/Resources/Private/Partials/Page/
-        templateRootPath = EXT:kpt_ev/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:kpt_web/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:kpt_web/Resources/Private/Partials/Page/
+        templateRootPath = EXT:kpt_web/Resources/Private/Templates/Page/
     }
 }
 

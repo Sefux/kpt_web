@@ -9,7 +9,7 @@
 ##############
 page {
     includeCSS {
-        theme = EXT:kpt_ev/Resources/Public/Scss/Theme/theme.scss
+        theme = EXT:kpt_web/Resources/Public/Scss/Theme/theme.scss
     }
 
     includeJSLibs {
@@ -25,6 +25,6 @@ page {
     }
 
     includeJSFooter {
-        kpt_ev_scripts = EXT:kpt_ev/Resources/Public/JavaScript/Dist/scripts.js
+        kpt_web_scripts = EXT:kpt_web/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
