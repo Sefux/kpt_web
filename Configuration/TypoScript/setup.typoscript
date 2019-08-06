@@ -1,0 +1,30 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSS {
+        theme = EXT:kpt_ev/Resources/Public/Scss/Theme/theme.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        kpt_ev_scripts = EXT:kpt_ev/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}
