@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Extension Manager/Repository config file for ext "kpt_ev".
+ * Extension Manager/Repository config file for ext "kpt_web".
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'KPT e.V.',

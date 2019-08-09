@@ -6,7 +6,7 @@ call_user_func(function()
     /**
      * Temporary variables
      */
-    $extensionKey = 'kpt_ev';
+    $extensionKey = 'kpt_web';
 
     /**
      * Default TypoScript for KptEv

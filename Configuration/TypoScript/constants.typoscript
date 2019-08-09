@@ -32,9 +32,9 @@ page {
 ##################
 plugin.bootstrap_package {
     view {
-        layoutRootPath = EXT:kpt_ev/Resources/Private/Layouts/
-        partialRootPath = EXT:kpt_ev/Resources/Private/Partials/
-        templateRootPath = EXT:kpt_ev/Resources/Private/Templates/
+        layoutRootPath = EXT:kpt_web/Resources/Private/Layouts/
+        partialRootPath = EXT:kpt_web/Resources/Private/Partials/
+        templateRootPath = EXT:kpt_web/Resources/Private/Templates/
     }
 }
 
@@ -44,9 +44,9 @@ plugin.bootstrap_package {
 ########################
 plugin.bootstrap_package_contentelements {
     view {
-        layoutRootPath = EXT:kpt_ev/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:kpt_ev/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:kpt_ev/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:kpt_web/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:kpt_web/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:kpt_web/Resources/Private/Templates/ContentElements/
     }
 }
 

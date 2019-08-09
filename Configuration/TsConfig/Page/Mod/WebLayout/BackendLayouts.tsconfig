@@ -1,4 +1,4 @@
 #
 # BACKENDLAYOUTS
 #
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:kpt_ev/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:kpt_web/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">

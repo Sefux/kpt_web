@@ -3,6 +3,6 @@
 #############
 RTE {
     default {
-        preset = kpt_ev
+        preset = kpt_web
     }
 }
