@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
             2Columns2575Userlist {
-                title = LLL:EXT:kpt_ev/Resources/Private/Language/locallang_be.xlf:backend_layout.example
+                title = LLL:EXT:kpt_web/Resources/Private/Language/locallang_be.xlf:backend_layout.userlist
                 config {
                     backend_layout {
                         colCount = 1
@@ -14,7 +14,7 @@ mod {
                             1 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:kpt_ev/Resources/Private/Language/locallang_be.xlf:backend_layout.column.normal
+                                        name = LLL:EXT:kpt_web/Resources/Private/Language/locallang_be.xlf:backend_layout.column.normal
                                         colPos = 0
                                     }
                                 }
@@ -22,7 +22,7 @@ mod {
                         }
                     }
                 }
-                icon = EXT:kpt_ev/Resources/Public/Icons/BackendLayouts/example.svg
+                icon = EXT:kpt_web/Resources/Public/Icons/BackendLayouts/example.svg
             }
         }
     }

@@ -9,6 +9,9 @@
             <trans-unit id="backend_layout.example">
                 <source>Example</source>
             </trans-unit>
+            <trans-unit id="backend_layout.userlist">
+                <source>Rekrutenliste</source>
+            </trans-unit>
             <trans-unit id="backend_layout.column.normal">
                 <source>Normal</source>
             </trans-unit>
