@@ -11,6 +11,7 @@
 page {
     includeCSS {
         theme = EXT:kpt_web/Resources/Public/Scss/Theme/theme.scss
+        fontawesome = EXT:kpt_web/Resources/Public/Fonts/fontawesome/css/all.min.css
     }
 
     includeJSLibs {

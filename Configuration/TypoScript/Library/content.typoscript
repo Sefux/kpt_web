@@ -32,7 +32,7 @@ lib.userliste {
 			15 {
 				field = email
 				required = 1
-				dataWrap = &nbsp;<a href="mailto:|" title="schreib doch mal {data:username}"><i class="icon-envelope"></i></a>
+				dataWrap = &nbsp;<a href="mailto:|" title="schreib doch mal {data:username}"><i class="fas fa-envelope-open-text"></i></a>
 				insertData = 1
 			}
 

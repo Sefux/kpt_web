@@ -13,3 +13,29 @@
   background-color: #ffffff;
   box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.15);
 }
+
+//
+// Backend Layouts
+//
+
+//
+// 2 Columns
+//
+@include media-breakpoint-up("lg") {
+  .backendlayout-userlist {
+    .maincontent-wrap {
+      width: calc(100% / 12 * 9);
+    }
+    .subcontent-wrap {
+      width: calc(100% / 12 * 3);
+    }
+  }
+  .backendlayout-userlist {
+    .maincontent-wrap {
+      order: 2;
+    }
+    .subcontent-wrap {
+      order: 1;
+    }
+  }
+}
