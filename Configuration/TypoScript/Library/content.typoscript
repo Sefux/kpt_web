@@ -1,0 +1,42 @@
+lib.userliste = COA
+lib.userliste {
+	wrap = <div class="well">|</div>
+	5 = TEXT
+	5 {
+		value = Rekruten
+		wrap = <h3>|</h3>
+	}
+	10 = CONTENT
+	10 {
+		table = fe_users
+		select {
+			pidInList = 42	
+			where = lastlogin > 0 
+			orderBy = lastlogin DESC
+		}
+		renderObj = COA
+		renderObj {
+			/*
+			5 = TEXT
+			5 {	
+				field = email
+				wrap = <a href="mailto:|" title="schreib doch mal!">
+				required = 1
+			}
+			*/
+
+			10 = TEXT
+			10.field = username
+			
+			15 = TEXT
+			15 {
+				field = email
+				required = 1
+				dataWrap = &nbsp;<a href="mailto:|" title="schreib doch mal {data:username}"><i class="icon-envelope"></i></a>
+				insertData = 1
+			}
+
+			wrap = | <br />
+		}
+	}
+}
